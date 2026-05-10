@@ -28,3 +28,5 @@ else:
     else:
         # loop completed without finding any divisor
         print("Number is prime")
+
+# tu tuza nav lihu shaktos ka ,sarkha tuzya nava chya jagi tuza email id disat ahe graph madhe atharvathorve2@gmail.com , change it to atharva thorve only
