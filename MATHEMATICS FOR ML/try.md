@@ -1,0 +1,1 @@
+I don't what to code , but yes I want to maintain our strick hahahha
