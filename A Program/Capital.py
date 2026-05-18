@@ -1,3 +1,3 @@
 string = input("Enter a string: ")
 
-print(string[0].upper())
+print(string[0].upper()) 
