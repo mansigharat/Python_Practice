@@ -1,1 +1,1 @@
-two pointer
+print("hello")
