@@ -7,5 +7,4 @@ for char in string:
         count += 1
 
 print(f"There are {count} number of vowels")
-#hvhhkjshkjhskvukhku hhksh
 print("hello")
