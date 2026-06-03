@@ -9,3 +9,4 @@ a = [1,2,3,4,5,6,7]
 # a.remove(2)
 # print(a)
 
+# print(a[0])
