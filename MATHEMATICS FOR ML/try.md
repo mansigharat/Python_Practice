@@ -1,1 +1,0 @@
-i just create python file and write hello world program lol
