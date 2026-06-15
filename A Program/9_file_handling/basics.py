@@ -1,5 +1,5 @@
 # reading a file
-p = open('C:\\Users\\Dell\\Python_Practice\\A Program\\8_exception_handing\\raise.py')
+p = open('demo_for_append.txt', 'r') # 'r' is used to read a file
 
 print(p.read())
 

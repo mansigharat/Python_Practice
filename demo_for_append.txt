@@ -1,0 +1,2 @@
+This is a demo file for append
+I can add as many lines as I want using the append (a)
