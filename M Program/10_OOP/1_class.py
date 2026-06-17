@@ -1,16 +1,18 @@
 #Variables - defined inside the class are Attribute
 #Methods - functions defined inside a class are Methods
 
-class Factory:
-    a = 12 #attribute
+class Hospital_Form:
 
-    def hello(self):
-        print("How are you ?")
+    def __init__(self,name,blood):
+        self.name = name
+        self.blood = blood
     
-    print("hello how are you i'm geeting initialized")
+    def show(self):
+        print(f"Patient name is {self.name} and blood group is {self.blood}")
 
-obj = Factory()
-print(obj.a)
+form1 = Hospital_Form("Mansi","A+")
+form2 = Hospital_Form("Parth","B+")
 
-print(Factory().a)
-Factory().hello()
+form1.show()
+print(form1.name)
+print(form2.blood)
