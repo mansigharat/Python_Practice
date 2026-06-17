@@ -1,15 +1,20 @@
-class Human:
-    def __init__(self,behaviour):
-        self.behaviour = behaviour
+class Animal:
+    def __init__(self,name):
+        self.name = name
 
     def show(self):
-        print(f"Humans are very {self.behaviour}.")
+        print(f"Hello, my name is {self.name}.")
 
 
-class Animal(Human):
-    pass
+class Human(Animal):
+    def __init__(self,name,age):
+        super().__init__(name)
+        self.age = age
+    
+    def show(self):
+        print(f"Hello, my name is {self.name}, {self.age}")
 
-sentence1 = Human("Selfish")
-sentence2 = Animal("Loyal")
+animal1 = Animal("Atharva")
+person1 = Human("Lion",19)
 
-sentence1.show()
+person1.show()
