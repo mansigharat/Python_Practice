@@ -49,7 +49,7 @@ class Cashier(Hotel):
         print(f"Cashier {self.name} take cash from customer...")
 
 o1 = Owner("Mansi Gharat")
-s1 = Servant("Shravani")
+s1 = Servant("Amit")
 c1 = Cashier("Atharva")
 
 for staff in [o1,s1,c1]:
