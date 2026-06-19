@@ -36,13 +36,15 @@
 # add(2,5)
 
 
-# def addition(*args):
-#     sum = 0
-#     for i in args:
-#         sum = sum + i
-#     print(sum)
-# addition(12,23,45,56,56,67,84)
+def addition(*args):
+    sum = 0
+    for i in args:
+        sum = sum + i
+    print(sum)
+addition(12,23,45,56,56,67,84)
 
 def addition(**kwargs):
-    print(kwargs)
-addition(name = "Mansi", age = 20 , designation)
+    print("Your Information \n")
+    for i in kwargs:
+        print(f"{i} : {kwargs[i]}")
+addition(Name = "Mansi", Age = 20 , Designation = "Agentic AI engineer")
