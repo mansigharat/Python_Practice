@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Manasi",
+    "age": 20,
+    "email": "manasigharat@gmail.com",
+    "pin": 3467,
+    "accountNo": 1234,
+    "balance": 0
+  },
+  {
+    "name": "Atharva Thorve",
+    "age": 20,
+    "email": "atharvathorve@gmail.com",
+    "pin": 1234,
+    "accountNo": "Nm4@06E",
+    "balance": 7000
+  },
+  {
+    "name": "Manasi Gharat",
+    "age": 20,
+    "email": "manasigharat2006@gmail.com",
+    "pin": "1919",
+    "accountNo": "@MUt471",
+    "balance": 0
+  }
+]
