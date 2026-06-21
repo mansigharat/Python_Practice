@@ -19,3 +19,6 @@ print(d)
 
 s = {x for x in range(1,30) if x%3 ==0 or x%5==0} 
 print(s)
+
+m = [i for i in range(1,19) if i%2==0]
+print (m)
