@@ -10,7 +10,7 @@ def add(a: int, m: int) -> int:
 
 def info(name: str, age: int) -> str:
     return f"My name is {name} and I am {age} year old."
-print(info("Mansi",19))
+print(info("Atharva",19))
 
 
 def sub(a: int, m: int) -> int:
