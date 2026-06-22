@@ -25,3 +25,4 @@ obj.show()
 obj.hello()
 
 obj.static()
+
