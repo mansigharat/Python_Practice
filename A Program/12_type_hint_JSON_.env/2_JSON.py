@@ -36,26 +36,48 @@
 
 
 
-
+  
 # 3rd code
 
-import json
-from pathlib import Path
+# import json
+# from pathlib import Path
 
-data = {
-    "agent" : "sales_bot",
-    "last _action" : "sent_email",
-    "success" : True
+# data = {
+#     "agent" : "sales_bot",
+#     "last _action" : "sent_email",
+#     "success" : True
+# }
+
+# file = Path ("agent_log.json")
+
+# with file.open("w") as f:
+#     json.dump(data, f, indent=2)
+
+# with file.open("r") as f:
+#     loaded = json.load(f)
+
+
+# print(loaded["agent"])
+# print(loaded["success"])
+
+
+import json
+
+weather = {
+    "city": "Mumbai",
+    "temperature": 34,
+    "is_raining": False,
+    "forecast": ["sunny", "cloudy", "rain"]
 }
 
-file = Path ("agent_log.json")
+# Write the dictionary to a JSON file
+with open("weather.json", "w") as f:
+    json.dump(weather, f)
 
-with file.open("w") as f:
-    json.dump(data, f, indent=2)
+# Read the JSON file back into a dictionary
+with open("weather.json", "r") as f:
+    weather = json.load(f)
 
-with file.open("r") as f:
-    loaded = json.load(f)
-
-
-print(loaded["agent"])
-print(loaded["success"])
+# Print the city and the first forecast
+print(weather["city"])
+print(weather["forecast"][0])
