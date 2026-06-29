@@ -14,5 +14,3 @@
 # venv\Scripts\activate
 
 # deactivate
-
-#code is over

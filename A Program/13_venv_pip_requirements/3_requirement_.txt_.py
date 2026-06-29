@@ -12,5 +12,3 @@
 # pip freeze > requirments.txt
 
 # deactivate
-
-# its generally text file
