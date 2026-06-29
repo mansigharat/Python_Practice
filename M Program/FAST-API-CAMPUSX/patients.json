@@ -48,5 +48,25 @@
         "weight": 75,
         "bmi": 31.22,
         "verdict": "Obese"
+    },
+    "P1001": {
+        "name": "Parth",
+        "city": "Pune",
+        "age": 20,
+        "gender": "male",
+        "height": 1.0,
+        "weight": 1.0,
+        "bmi": 1.0,
+        "verdict": "Underweight"
+    },
+    "P006": {
+        "name": "Mansi Gharat",
+        "city": "Pune",
+        "age": 20,
+        "gender": "female",
+        "height": 1.4,
+        "weight": 40.0,
+        "bmi": 20.41,
+        "verdict": "Normal"
     }
 }
