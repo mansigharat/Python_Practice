@@ -61,12 +61,12 @@
     },
     "P006": {
         "name": "Mansi Gharat",
-        "city": "Pune",
+        "city": "Banglore",
         "age": 20,
         "gender": "female",
         "height": 1.4,
-        "weight": 40.0,
-        "bmi": 20.41,
+        "weight": 45.0,
+        "bmi": 22.96,
         "verdict": "Normal"
     }
 }
