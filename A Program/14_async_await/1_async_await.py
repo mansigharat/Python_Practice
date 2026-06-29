@@ -1,6 +1,9 @@
 # async marks a function as one that can do smart waiting. You put it before def.
 # await is used inside an async function to say "start this task and come back when it is ready, do not just stand there.
 
+
+#code no. 1
+
 # import asyncio
 
 # async def fetch_weather(city):
