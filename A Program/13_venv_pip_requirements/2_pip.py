@@ -3,3 +3,4 @@
 # In technical words it downloads libraries on one simple command.
 # Or else we manually have to download those libraries.
 
+#pip is esssential
