@@ -1,6 +1,7 @@
 ####### 1st code  
 
 
+
 def decorator(func):
     def wrapper():
         print("1. Mansi Gharat  98/100")

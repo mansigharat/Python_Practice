@@ -1,5 +1,6 @@
 # use of type dict, type hints, nested types, in JSON.
 
+
 import json
 from pathlib import Path
 from typing import TypedDict

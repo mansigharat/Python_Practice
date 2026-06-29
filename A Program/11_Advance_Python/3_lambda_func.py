@@ -1,3 +1,5 @@
+# lambda functions
+
 addition = lambda a, b : a + b
 
 print(addition(19,7))
