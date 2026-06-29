@@ -13,4 +13,4 @@
 
 # deactivate
 
-# its generally text
+# its generally text file
