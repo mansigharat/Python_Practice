@@ -1,0 +1,20 @@
+{
+    "M001": {
+        "title": "Inception",
+        "director": "Christopher Nolan",
+        "total_tickets": 100,
+        "booked_tickets": 65
+    },
+    "M002": {
+        "title": "Interstellar",
+        "director": "Christopher Nolan",
+        "total_tickets": 80,
+        "booked_tickets": 80
+    },
+    "M003": {
+        "title": "The Dark Knight",
+        "director": "Christopher Nolan",
+        "total_tickets": 120,
+        "booked_tickets": 40
+    }
+}
