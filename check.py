@@ -7,5 +7,3 @@ parser.add_argument("--extension", default=".py", help="which file type")
 args = parser.parse_args()
 
 print(f"Checking {args.folder} for {args.extension} files")
-
-# run this python check.py my_project --extension .py
