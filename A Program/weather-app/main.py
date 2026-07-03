@@ -1,14 +1,17 @@
 import asyncio
 import json
 import os
+from pathlib import Path
 
 import httpx
 from dotenv import load_dotenv
 
-# Load environment variables
-load_dotenv()
+# Load the .env file
+load_dotenv(Path(__file__).parent / ".env")
 
+# Read the API key
 API_KEY = os.getenv("OPENWEATHER_API_KEY")
+
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
 
 
@@ -33,6 +36,10 @@ async def fetch_weather(city):
 
 
 async def main():
+    if not API_KEY:
+        print("❌ API_KEY not found in .env")
+        return
+
     cities = ["Mumbai", "Delhi", "Bangalore"]
 
     results = await asyncio.gather(
@@ -41,6 +48,9 @@ async def main():
 
     with open("weather.json", "w") as file:
         json.dump(results, file, indent=4)
+
+    print("\nWeather Report")
+    print("-" * 30)
 
     for result in results:
         print(
